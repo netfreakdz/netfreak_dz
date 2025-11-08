@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://netfreakdz.github.io/netfreak_dz/sitemap.xml
