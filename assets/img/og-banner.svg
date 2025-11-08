@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#7c3aed"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.05"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="#0b0f14"/>
+  <g opacity="0.25">
+    <circle cx="300" cy="-50" r="400" fill="url(#g)"/>
+    <circle cx="1100" cy="680" r="380" fill="url(#g)"/>
+  </g>
+  <rect width="1200" height="630" fill="#000" opacity="0.2"/>
+  <g filter="url(#grain)"><rect width="1200" height="630" fill="#000" opacity="0.1"/></g>
+  <text x="80" y="300" font-family="Inter,Segoe UI,Roboto,system-ui,sans-serif" font-size="88" font-weight="800" fill="white">netfreak_dz</text>
+  <text x="82" y="360" font-family="Inter,Segoe UI,Roboto,system-ui,sans-serif" font-size="30" fill="#cbd5e1">Developer • Web • Automation</text>
+  <g transform="translate(80,410)" fill="#e2e8f0">
+    <circle cx="12" cy="-6" r="3" fill="#7c3aed"/>
+    <text x="24" y="0" font-family="Inter,Segoe UI,Roboto,system-ui,sans-serif" font-size="24">github.com/netfreakdz</text>
+  </g>
+  <g transform="translate(80,450)" fill="#e2e8f0">
+    <circle cx="12" cy="-6" r="3" fill="#06b6d4"/>
+    <text x="24" y="0" font-family="Inter,Segoe UI,Roboto,system-ui,sans-serif" font-size="24">instagram.com/netfreak_dz</text>
+  </g>
+  <g transform="translate(80,490)" fill="#e2e8f0">
+    <circle cx="12" cy="-6" r="3" fill="#22c55e"/>
+    <text x="24" y="0" font-family="Inter,Segoe UI,Roboto,system-ui,sans-serif" font-size="24">netfreakdz.github.io/netfreak_dz</text>
+  </g>
+</svg>
